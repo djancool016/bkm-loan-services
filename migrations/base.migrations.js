@@ -15,7 +15,8 @@ class Migration {
                 const constrait = col.references ? `, CONSTRAINT fk_${tableName}_${col.references.table}` : ''
                 const foreignKey = col.references ? `FOREIGN KEY (${col.columnName})` : ''
                 const references = col.references ? `REFERENCES ${col.references.table}(${col.references.key})` : ''
-                return `${col.columnName} ${col.dataType} ${nullable} ${unique} ${autoIncrement} ${constrait} ${foreignKey} ${references}`
+                const defaultValue = col.default !== undefined ? `DEFAULT '${col.default}'` : ''
+                return `${col.columnName} ${col.dataType} ${nullable} ${unique} ${autoIncrement} ${constrait} ${foreignKey} ${references} ${defaultValue}`
             }).join(', ')
 
             // add timestamp

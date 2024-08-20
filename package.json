@@ -1,7 +1,7 @@
 {
-  "name": "myexpressrestframework",
+  "name": "bkmloanservices",
   "version": "1.0.0",
-  "description": "**Project:** MyExpressRestFramework is a lightweight RESTful API framework built using Express.js",
+  "description": "BKM Loan Service is a user loan management application built using Express.js.",
   "main": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon app.js",

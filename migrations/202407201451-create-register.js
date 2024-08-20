@@ -1,6 +1,6 @@
 module.exports = {
-    tableName: "roles",
-    timestamp: true,
+    tableName: "register",
+    timestamp: false,
     columns: [
         {
             columnName: "id",
@@ -9,16 +9,9 @@ module.exports = {
             autoIncrement: true
         },
         {
-            columnName: "name",
-            dataType: "VARCHAR(50)",
-            nullable: false,
-            unique: true
-        },
-        {
             columnName: "description",
             dataType: "VARCHAR(255)",
-            nullable: true
+            nullable: false
         }
     ]
-    
 }

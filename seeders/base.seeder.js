@@ -54,6 +54,7 @@ class Seeder {
             for(const seeder of seeders){
                 await Seeder.#seedTable(seeder, db)
             }
+            if(logging) console.log("All table has been successfully seeded.")
         } catch (error) {
             if(logging) console.error(error.message)
             throw error

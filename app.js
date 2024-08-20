@@ -1,7 +1,7 @@
 const express = require('express')
 const cookieParser = require('cookie-parser')
 const app = express()
-const PORT = process.env.PORT || 6100
+const PORT = process.env.PORT || 6200
 const setupRoutes = require('./routes')
 
 const {db, truncateAll} = require('./database').init()
