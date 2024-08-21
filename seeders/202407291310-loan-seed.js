@@ -7,7 +7,8 @@ module.exports = {
             startDate: "2022-04-20",
             amount: 38000000,
             interestRate: 1.5,
-            duration: 12
+            duration: 12,
+            status:'active'
         },
         {
             id: 2,
@@ -15,7 +16,8 @@ module.exports = {
             startDate: "2022-03-31",
             amount: 54700000,
             interestRate: 1.5,
-            duration: 12
+            duration: 12,
+            status:'active'
         },
         {
             id: 3,
@@ -23,7 +25,8 @@ module.exports = {
             startDate: "2022-03-22",
             amount: 35000000,
             interestRate: 1.5,
-            duration: 12
+            duration: 12,
+            status:'active'
         },
         {
             id: 4,
@@ -31,7 +34,8 @@ module.exports = {
             startDate: "2022-07-07",
             amount: 23000000,
             interestRate: 1.5,
-            duration: 12
+            duration: 12,
+            status:'active'
         },
         {
             id: 5,
@@ -39,7 +43,8 @@ module.exports = {
             startDate: "2022-05-27",
             amount: 30000000,
             interestRate: 1.5,
-            duration: 12
+            duration: 12,
+            status:'active'
         },
         {
             id: 6,
@@ -47,7 +52,8 @@ module.exports = {
             startDate: "2022-09-16",
             amount: 100000000,
             interestRate: 1.5,
-            duration: 12
+            duration: 12,
+            status:'active'
         },
         {
             id: 7,
@@ -55,7 +61,8 @@ module.exports = {
             startDate: "2022-04-01",
             amount: 36000000,
             interestRate: 1.5,
-            duration: 12
+            duration: 12,
+            status:'active'
         },
         {
             id: 8,
@@ -63,7 +70,8 @@ module.exports = {
             startDate: "2022-04-06",
             amount: 170000000,
             interestRate: 1.5,
-            duration: 12
+            duration: 12,
+            status:'active'
         },
         {
             id: 9,
@@ -71,7 +79,8 @@ module.exports = {
             startDate: "2022-09-01",
             amount: 72000000,
             interestRate: 1.5,
-            duration: 12
+            duration: 12,
+            status:'active'
         },
         {
             id: 10,
@@ -79,7 +88,8 @@ module.exports = {
             startDate: "2022-02-17",
             amount: 98000000,
             interestRate: 1.5,
-            duration: 12
+            duration: 12,
+            status:'active'
         },
         {
             id: 11,
@@ -87,7 +97,8 @@ module.exports = {
             startDate: "2022-09-07",
             amount: 14000000,
             interestRate: 1.5,
-            duration: 12
+            duration: 12,
+            status:'active'
         },
         {
             id: 12,
@@ -95,7 +106,8 @@ module.exports = {
             startDate: "2022-12-29",
             amount: 120000000,
             interestRate: 1.5,
-            duration: 12
+            duration: 12,
+            status:'active'
         },
         {
             id: 13,
@@ -103,7 +115,8 @@ module.exports = {
             startDate: "2022-11-09",
             amount: 40000000,
             interestRate: 1.5,
-            duration: 12
+            duration: 12,
+            status:'active'
         },
         {
             id: 14,
@@ -111,7 +124,8 @@ module.exports = {
             startDate: "2022-10-24",
             amount: 120000000,
             interestRate: 1.5,
-            duration: 12
+            duration: 12,
+            status:'active'
         },
         {
             id: 15,
@@ -119,7 +133,8 @@ module.exports = {
             startDate: "2022-09-09",
             amount: 35000000,
             interestRate: 1.5,
-            duration: 12
+            duration: 12,
+            status:'active'
         },
         {
             id: 16,
@@ -127,7 +142,8 @@ module.exports = {
             startDate: "2022-11-09",
             amount: 19000000,
             interestRate: 1.5,
-            duration: 12
+            duration: 12,
+            status:'active'
         },
         {
             id: 17,
@@ -135,7 +151,8 @@ module.exports = {
             startDate: "2022-05-13",
             amount: 48000000,
             interestRate: 1.5,
-            duration: 12
+            duration: 12,
+            status:'active'
         },
         {
             id: 18,
@@ -143,7 +160,8 @@ module.exports = {
             startDate: "2022-10-24",
             amount: 118000000,
             interestRate: 1.5,
-            duration: 12
+            duration: 12,
+            status:'active'
         },
         {
             id: 19,
@@ -151,7 +169,8 @@ module.exports = {
             startDate: "2022-06-27",
             amount: 50000000,
             interestRate: 1.5,
-            duration: 12
+            duration: 12,
+            status:'active'
         },
         {
             id: 20,
@@ -159,7 +178,8 @@ module.exports = {
             startDate: "2022-11-24",
             amount: 99000000,
             interestRate: 1.5,
-            duration: 12
+            duration: 12,
+            status:'active'
         },
         {
             id: 21,
@@ -167,7 +187,8 @@ module.exports = {
             startDate: "2022-06-06",
             amount: 36000000,
             interestRate: 1.5,
-            duration: 12
+            duration: 12,
+            status:'active'
         },
         {
             id: 22,
@@ -175,7 +196,8 @@ module.exports = {
             startDate: "2022-08-10",
             amount: 36000000,
             interestRate: 1.5,
-            duration: 12
+            duration: 12,
+            status:'active'
         },
         {
             id: 23,
@@ -183,7 +205,8 @@ module.exports = {
             startDate: "2022-09-28",
             amount: 22000000,
             interestRate: 1.5,
-            duration: 12
+            duration: 12,
+            status:'active'
         },
         {
             id: 24,
@@ -191,7 +214,8 @@ module.exports = {
             startDate: "2022-11-09",
             amount: 37000000,
             interestRate: 1.5,
-            duration: 12
+            duration: 12,
+            status:'active'
         }
     ]
 }

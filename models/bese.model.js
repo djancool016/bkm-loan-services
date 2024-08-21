@@ -122,5 +122,27 @@ function hasEmptyValue(obj) {
     return Object.values(obj).some(value => value === null || value === undefined || value === '')
 }
 
+/**
+ * Creates an object representing a reference for use in a query.
+ * 
+ * @param {string} table - The name of the table containing the foreign key.
+ * @param {object} references - An object containing reference information, including the table name and key.
+ * @param {string} foreignKey - The name of the foreign key in the table.
+ * @param {array} includes - An array of column names to be included in the query.
+ * @param {string} [alias] - An alias for the reference table name. If not provided, the reference table name will be used as the alias.
+ * 
+ * @returns {object} An object containing reference information, including the table name, reference, foreign key, included columns, and alias.
+ */
+function mapReferences(table, references, foreignKey, includes = [], alias = {}){
+    const ref = references.find(col => col.columnName === foreignKey).references
+    return {
+        table: ref.table,
+        references: `${ref.table}.${ref.key}`,
+        foreignKey: `${table}.${foreignKey}`,
+        includes: includes,
+        alias
+    }
+}
 
-module.exports = BaseModel
+
+module.exports = {BaseModel, mapReferences}

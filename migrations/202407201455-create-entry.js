@@ -22,8 +22,9 @@ module.exports = {
         },
         {
             columnName: "dc",
-            dataType: "BIT",
+            dataType: "TINYINT(1)",
             nullable: false
         }
     ]
 }
+

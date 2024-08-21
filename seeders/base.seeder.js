@@ -17,6 +17,9 @@ class Seeder {
                 throw new Error('SEEDER_INVALID_SEED_ERR')
             }
 
+            // disable foreign key check
+            await db.query('SET FOREIGN_KEY_CHECKS = 0')
+
             // create bulk insert query
             const bulkInsertPromises = seed.map(async obj => {
 
@@ -35,6 +38,10 @@ class Seeder {
 
             // using Promise.all to reduce potential race condition
             await Promise.all(bulkInsertPromises)
+
+            // Enable foreign key checks
+            await db.query('SET FOREIGN_KEY_CHECKS = 1')
+            
             if(logging) console.log(`Seeder successfully populate table ${table}`)
 
         } catch (error) {
