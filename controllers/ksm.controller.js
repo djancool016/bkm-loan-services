@@ -1,9 +1,9 @@
-const RoleModel = require('../models/role.model')
+const KsmModel = require('../models/ksm.model')
 
 const baseController = require('./base.controller')
 
 const controller = (method) => (req, res, next) => {
-    return baseController[method](req, res, next, model = new RoleModel())
+    return baseController[method](req, res, next, model = new KsmModel())
 }
 
 module.exports = {

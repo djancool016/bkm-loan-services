@@ -63,11 +63,11 @@ const testCases = {
     ],
     update: [
         {
-            input: {id: 2, name: 'New Name', rw: 2},
+            input: {id: 78987, name: 'New Name', rw: 2},
             output: {data: {affectedRows: 1}},
             description: 'Success should affectedRows  = 1'
         }, {
-            input: {id: 2, nameX: 'New Name', rw: 2},
+            input: {id: 78987, nameX: 'New Name', rw: 2},
             output: {code: 'ER_BAD_FIELD_ERROR'},
             description: 'Invalid input should throwing error code ER_BAD_FIELD_ERROR'
         }, {
